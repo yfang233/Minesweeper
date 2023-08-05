@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\gui">
+      <UniqueIdentifier>{11418b8d-b7d3-42ba-9af2-3c7815959b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gui\raylib">
+      <UniqueIdentifier>{67a020b0-d24c-44d6-90c1-89cbb8f8cf62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gui\widgets">
+      <UniqueIdentifier>{1821dfbb-5492-41ba-8809-5dd738c0650c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gui">
+      <UniqueIdentifier>{b043ab3f-2910-4255-a72a-c8c4750a7696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gui\widgets">
+      <UniqueIdentifier>{b51e86a8-e56f-4265-aeb6-4a83f3afe0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scenes">
+      <UniqueIdentifier>{891005f3-07d9-4910-82c7-9d57c90a14e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scenes">
+      <UniqueIdentifier>{a007efbb-3f34-4e86-81c5-a2a2a98892f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\widgets\button.cpp">
+      <Filter>源文件\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\widgets\scene.cpp">
+      <Filter>源文件\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\widgets\group.cpp">
+      <Filter>源文件\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\widgets\imagebox.cpp">
+      <Filter>源文件\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\display.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\widgets\label.cpp">
+      <Filter>源文件\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\widgets\timer.cpp">
+      <Filter>源文件\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\save.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\form.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\widget.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\block.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recording.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\windlg.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\menu.cpp">
+      <Filter>源文件\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\gaming.cpp">
+      <Filter>源文件\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\level_select.cpp">
+      <Filter>源文件\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ranklist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\paused.cpp">
+      <Filter>源文件\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\dir.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\victory.cpp">
+      <Filter>源文件\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\defeat.cpp">
+      <Filter>源文件\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\replay.cpp">
+      <Filter>源文件\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\showlist.cpp">
+      <Filter>源文件\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\ranklist_display.cpp">
+      <Filter>源文件\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\clock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GUI\widgets\button.hpp">
+      <Filter>头文件\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\widgets\group.hpp">
+      <Filter>头文件\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raylib.h">
+      <Filter>头文件\gui\raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raymath.h">
+      <Filter>头文件\gui\raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rlgl.h">
+      <Filter>头文件\gui\raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\widgets\imagebox.hpp">
+      <Filter>头文件\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\widgets\scene.hpp">
+      <Filter>头文件\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\form.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\widget.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\audio.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\display.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\event.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\widgets\label.hpp">
+      <Filter>头文件\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\widgets\timer.hpp">
+      <Filter>头文件\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\event_args\event_args.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\event_args\mouse_event_args.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\block.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\recording.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_enums.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exceptions.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\save.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\windlg.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\event_args\keyboard_event_args.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\gaming.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\menu.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ranklist.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\styles.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\gaming.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\level_select.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\paused.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\victory.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\dir.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\defeat.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\replay.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\showlist.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\ranklist_display.hpp">
+      <Filter>头文件\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\gui_exceptions.hpp">
+      <Filter>头文件\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\clock.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

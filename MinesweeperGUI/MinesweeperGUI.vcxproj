@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\audio.cpp" />
+    <ClCompile Include="src\block.cpp" />
+    <ClCompile Include="src\display.cpp" />
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\GUI\clock.cpp" />
+    <ClCompile Include="src\GUI\dir.cpp" />
+    <ClCompile Include="src\GUI\form.cpp" />
+    <ClCompile Include="src\GUI\widget.cpp" />
+    <ClCompile Include="src\GUI\widgets\button.cpp" />
+    <ClCompile Include="src\GUI\widgets\group.cpp" />
+    <ClCompile Include="src\GUI\widgets\imagebox.cpp" />
+    <ClCompile Include="src\GUI\widgets\label.cpp" />
+    <ClCompile Include="src\GUI\widgets\scene.cpp" />
+    <ClCompile Include="src\GUI\widgets\timer.cpp" />
+    <ClCompile Include="src\GUI\windlg.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ranklist.cpp" />
+    <ClCompile Include="src\recording.cpp" />
+    <ClCompile Include="src\save.cpp" />
+    <ClCompile Include="src\scenes\defeat.cpp" />
+    <ClCompile Include="src\scenes\gaming.cpp" />
+    <ClCompile Include="src\scenes\level_select.cpp" />
+    <ClCompile Include="src\scenes\menu.cpp" />
+    <ClCompile Include="src\scenes\paused.cpp" />
+    <ClCompile Include="src\scenes\ranklist_display.cpp" />
+    <ClCompile Include="src\scenes\replay.cpp" />
+    <ClCompile Include="src\scenes\showlist.cpp" />
+    <ClCompile Include="src\scenes\victory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\audio.hpp" />
+    <ClInclude Include="include\block.hpp" />
+    <ClInclude Include="include\display.hpp" />
+    <ClInclude Include="include\exceptions.hpp" />
+    <ClInclude Include="include\game.hpp" />
+    <ClInclude Include="include\game_enums.hpp" />
+    <ClInclude Include="include\gui.hpp" />
+    <ClInclude Include="include\GUI\clock.hpp" />
+    <ClInclude Include="include\GUI\dir.hpp" />
+    <ClInclude Include="include\GUI\event.hpp" />
+    <ClInclude Include="include\GUI\event_args\event_args.hpp" />
+    <ClInclude Include="include\GUI\event_args\keyboard_event_args.hpp" />
+    <ClInclude Include="include\GUI\event_args\mouse_event_args.hpp" />
+    <ClInclude Include="include\GUI\form.hpp" />
+    <ClInclude Include="include\GUI\gui_exceptions.hpp" />
+    <ClInclude Include="include\GUI\widget.hpp" />
+    <ClInclude Include="include\GUI\widgets\button.hpp" />
+    <ClInclude Include="include\GUI\widgets\group.hpp" />
+    <ClInclude Include="include\GUI\widgets\imagebox.hpp" />
+    <ClInclude Include="include\GUI\widgets\label.hpp" />
+    <ClInclude Include="include\GUI\widgets\scene.hpp" />
+    <ClInclude Include="include\GUI\widgets\timer.hpp" />
+    <ClInclude Include="include\GUI\windlg.hpp" />
+    <ClInclude Include="include\ranklist.hpp" />
+    <ClInclude Include="include\raylib.h" />
+    <ClInclude Include="include\raymath.h" />
+    <ClInclude Include="include\recording.hpp" />
+    <ClInclude Include="include\resource.h" />
+    <ClInclude Include="include\rlgl.h" />
+    <ClInclude Include="include\save.hpp" />
+    <ClInclude Include="include\styles.hpp" />
+    <ClInclude Include="include\utils.hpp" />
+    <ClInclude Include="src\scenes\defeat.hpp" />
+    <ClInclude Include="src\scenes\gaming.hpp" />
+    <ClInclude Include="src\scenes\level_select.hpp" />
+    <ClInclude Include="src\scenes\menu.hpp" />
+    <ClInclude Include="src\scenes\paused.hpp" />
+    <ClInclude Include="src\scenes\ranklist_display.hpp" />
+    <ClInclude Include="src\scenes\replay.hpp" />
+    <ClInclude Include="src\scenes\showlist.hpp" />
+    <ClInclude Include="src\scenes\victory.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{09aa25f8-30aa-4e76-934a-4fff79022df8}</ProjectGuid>
+    <RootNamespace>MinesweeperGUI</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);./include/</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);./include/</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(IncludePath);./include/</IncludePath>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(IncludePath);./include/</IncludePath>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AMD64_</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>-DDEBUG %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4244;</DisableSpecificWarnings>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lib/raylib.lib;lib/WinMM.Lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo d | xcopy "$(SolutionDir)$(ProjectName)\assets" "$(OutDir)assets" /E /H /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AMD64_</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalOptions />
+      <AdditionalDependencies>lib/raylib.lib;lib/WinMM.Lib;msvcrtd.lib;vcruntimed.lib;ucrtd.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo d | xcopy "$(SolutionDir)$(ProjectName)\assets" "$(OutDir)assets" /E /H /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AMD64_</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <BrowseInformation>true</BrowseInformation>
+      <AdditionalOptions>-DDEBUG %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4244;</DisableSpecificWarnings>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lib/raylib.lib;lib/WinMM.Lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>echo d | xcopy "$(SolutionDir)$(ProjectName)\assets" "$(OutDir)assets" /E /H /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AMD64_</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <BrowseInformation>true</BrowseInformation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lib/raylib.lib;lib/WinMM.Lib;msvcrtd.lib;vcruntimed.lib;ucrtd.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalOptions />
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>echo d | xcopy "$(SolutionDir)$(ProjectName)\assets" "$(OutDir)assets" /E /H /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
